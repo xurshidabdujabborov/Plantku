@@ -1,0 +1,42 @@
+.Bottom{
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+.Bottom .box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1500px;
+    margin: auto;
+    background: #F3F4F6;
+}
+.Bottom .box .card{
+    text-align: left;
+}
+.Bottom .box .card button{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px 40px;
+    background-color: #156963;
+    color: white;
+    border: none;
+    margin-top: 32px;
+}
+.Bottom .box .img{
+    text-align: right !important;
+}
+@media(max-width: 900px){
+    .Bottom .box{
+        width: 800px;
+        padding: 30px 0px;
+        flex-direction: column;
+    }
+}
+@media(max-width: 750px){
+    .Bottom .box{
+        width: 600px;
+        padding: 30px;
+    }
+}

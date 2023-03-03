@@ -1,0 +1,117 @@
+header {
+  width: 100%;
+}
+header .card {
+  text-align: left;
+}
+header .card h1 {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 83px;
+  color: #156963;
+}
+header .card p.text {
+  margin-top: 30px;
+}
+header .card .flex {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+header .card .flex .nan {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 160px;
+}
+header .card .flex .nan:hover{
+    cursor: pointer;
+}
+header .card .flex .nan p {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #333333;
+}
+header .card .flex .nan p .css-i4bv87-MuiSvgIcon-root {
+  font-size: 30px;
+  margin-right: 10px;
+}
+header .card .flex .nan h4 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  color: #156963;
+  margin-top: 15px;
+}
+header .card .flex .var {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+  background-color: #156963;
+  height: 160px;
+}
+header .card .flex .var:hover{
+    cursor: pointer;
+    transition: 1s;
+}
+header .card .flex .var p {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #F2F2F2;
+}
+header .card .flex .var p .css-i4bv87-MuiSvgIcon-root {
+  font-size: 30px;
+  margin-right: 10px;
+}
+header .card .flex .var h4 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+@media(max-width: 900px){
+  header .card{
+    margin-top: 30px;
+    text-align: center;
+  }
+  header .card h1{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  header .card .flex{
+    justify-content: center;
+  }
+  header .img img{
+    width: 100%;
+  }
+}
+@media(max-width: 600px){
+  header .card .flex .nan{
+    width: 200px;
+  }
+  header .card .flex .var{
+    width: 200px;
+  }
+  header .card .flex .nan p{
+    font-size: 15px;
+  }
+  header .card .flex .nan h4{
+    font-size: 20px;
+  }
+  header .card .flex .var p{
+    font-size: 15px;
+  }
+  header .card .flex .var h4{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,98 @@
+footer {
+  width: 100%;
+  padding-top: 60px;
+  border-top: 1px solid #e0e0e0;
+  padding-bottom: 80px;
+}
+footer .left {
+  text-align: left;
+  margin-top: 25px;
+}
+footer .left h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #333;
+  margin-top: 24px;
+}
+footer .left span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #4f4f4f;
+  margin-top: 10px;
+}
+footer ul {
+  text-align: left;
+  margin: 0px 50px;
+}
+footer ul h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #333;
+  margin-top: 24px;
+}
+footer ul li {
+  margin: 14px 0px;
+}
+footer ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: black;
+}
+footer .right {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+footer .right h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #333;
+  margin-top: 24px;
+}
+footer .right input {
+  width: 250px;
+  padding: 10px 0px;
+  padding-left: 13px;
+  margin-top: 15px;
+}
+::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+}
+footer .right input:focus {
+  outline: none;
+}
+footer .right button {
+  width: 70px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: white;
+  background-color: #156963;
+  border: none;
+  margin-top: 14px;
+}
+footer .right button:hover {
+  cursor: pointer;
+}
+@media(max-width: 900px){
+  footer .left{
+    text-align: center;
+  }
+  footer ul{
+    text-align: center;
+  }
+  footer .right{
+    text-align: center;
+    margin: auto;
+  }
+}
